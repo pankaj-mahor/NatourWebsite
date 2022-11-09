@@ -20,3 +20,31 @@
     animation: moveInRight 1s ease-out;
     }
 }
+.heading-secondary{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    @include gradient-text;
+    letter-spacing: 2px;
+    transition: all .2s;
+
+        &:hover{
+            transform: skewY(2deg) skewX(15deg) scale(1.1);
+            text-shadow: .5rem 1rem 2rem rgba($color-black , 0.2);
+        }
+}
+
+.heading-tertiary{
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: 1.6rem;
+    line-height: 1.6;
+
+    &:not(:last-child){
+        margin-bottom: 3rem;
+    }
+}
