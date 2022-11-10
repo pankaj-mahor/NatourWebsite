@@ -1,7 +1,7 @@
 //abstract
 @import "./abstract/variables";
 @import "./abstract/mixins";
-@import "./abstract/variables";
+@import "./abstract/variables"; 
 //base
 @import "./base/base";
 @import "./base/animation";
@@ -11,10 +11,11 @@
 @import "./components/button";
 @import "./components/composition";
 @import "./components/feature-box";
+@import "./components/card";
 @import "./pages/home";
 
 @import "./layout/header";
-@import "./layout/grid";
+@import "./layout/grid"; 
 
 
 
