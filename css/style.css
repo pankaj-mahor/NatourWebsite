@@ -1,3 +1,18 @@
+/*
+0 - 600  Phone
+600 - 900 Tablet portrait
+900 - 1200 tablet landscape
+[1200 - 1800] normal pc
+1800+ BIg pc desktop
+
+*/
+/*
+phone 600px
+tab-port
+tab-land
+pc
+bigdesktio
+*/
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -5,6 +20,15 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112em) {
+    html {
+      font-size: 75%; } }
 
 body {
   font-family: "Lato" , sans-serif;
@@ -489,7 +513,7 @@ body {
     overflow: hidden;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.5);
-    transition: all .4s; }
+    transition: all .4s .2s; }
   .popup__left {
     width: 33.333%;
     display: table-cell;
