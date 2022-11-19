@@ -45,7 +45,10 @@ phone 600px
 tab-port
 tab-land
 pc
-bigdesktio
+big desktop
+
+ORDER
+Base + typography > general grid + Layout + page layout +   component
 */
 @mixin respond($breakpoint) {
     @if $breakpoint == phone {

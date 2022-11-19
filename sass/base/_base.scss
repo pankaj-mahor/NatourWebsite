@@ -27,4 +27,8 @@ body{
     padding: 3rem;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
+    @include respond(tab-port){
+       padding: 0;
+    }
 }
